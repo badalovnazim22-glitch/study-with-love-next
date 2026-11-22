@@ -14,7 +14,8 @@ public class MainActivity extends Activity {
     int purple=0xFF8B72D9, ink=0xFF28263A, muted=0xFF858397, bg=0xFFF7F5FB, surface=0xFFFFFFFF, lavender=0xFFF0EBFF, mint=0xFFE7F4EC, peach=0xFFFFEEE4;
     LinearLayout root, body, nav;
     String page="home", language="ru";
-    boolean dark=false, running=false, breakMode=false;\n    int themeId=0;
+    boolean dark=false, running=false, breakMode=false;
+    int themeId=0;
     int minutes=25, seconds=0, sessions=0, water=0, monthOffset=0;
     Handler handler=new Handler();
     Runnable ticker;
